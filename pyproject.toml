@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trae-ai"
+version = "0.1.0"
+description = "浜哄姏璧勬簮鍙婄哗鏁堢鐞嗕笓瀹舵櫤鑳戒綋"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.scripts]
+trae-ai = "src.trae_ai.main:main"
